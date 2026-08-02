@@ -8,5 +8,5 @@ from sklearn.metrics import accuracy_score, classification_report
 
 df = pd.read_csv('/Users/rajuyb/Desktop/CORE-ML/mle-proj/training.1600000.processed.noemoticon.csv', encoding='latin-1', header=None)
 df = df[[0, 5]]
-df.columns = ['polarity', 'text']
+df.columns = ['Polarity', 'Text']
 print(df.head())
