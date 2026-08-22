@@ -1,3 +1,7 @@
 pandas
 numpy
 nltk
+dill 
+fastapi 
+uvicorn 
+pydantic
