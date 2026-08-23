@@ -116,7 +116,7 @@ def get_word_features(review):
 # 2. Model Loading Utility
 # -------------------------------------------------------------
 # Path where your .pkl files are saved
-MODEL_DIR = "/Users/rairakesh/work/BitsPillaniProject/CustSentiAnalysis/models/"
+MODEL_DIR = "/app/models/"
 
 def load_classifier(model_name: str):
     """Safely loads a pickled classifier from the disk."""
@@ -193,4 +193,4 @@ if __name__ == "__main__":
     import uvicorn
     # This keeps the server alive and listening for API requests
     print('Starting api via uvicorn')
-    uvicorn.run("api:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("api:app", host="0.0.0.0", port=8000, reload=True)
