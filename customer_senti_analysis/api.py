@@ -8,6 +8,7 @@ nltk.download('rte')
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 import pickle
+from sentence_transformers import SentenceTransformer
 
 # Initialize the FastAPI application
 app = FastAPI(
@@ -117,6 +118,8 @@ def get_word_features(review):
 # -------------------------------------------------------------
 # Path where your .pkl files are saved
 MODEL_DIR = "/app/models/"
+bert_model = SentenceTransformer('all-MiniLM-L6-v2')
+print("\nGenerating BERT embeddings for custom reviews...")
 
 def load_classifier(model_name: str):
     """Safely loads a pickled classifier from the disk."""
@@ -183,11 +186,23 @@ def predict_decision_tree(request: TextRequest):
     prediction = classifier.classify(features)
     return {"classifier": "RTEClassifier", "text": request.text, "sentiment": prediction}
 
+@app.post("/predict/bert")
+def predict_decision_tree(request: TextRequest):
+    classifier = load_classifier("BertClassifier")
+    sentiment_mapping = {'positive': 1, 'negative': 0, 'neutral': 2}
+    reverse_sentiment_mapping = {v: k for k, v in sentiment_mapping.items()}
+    # Load a pre-trained sentence transformer model
+    # 'all-MiniLM-L6-v2' is a good general-purpose model
+    new_reviews_embeddings = bert_model.encode([request.text], show_progress_bar=True)
+    new_bert_predictions = classifier.predict(new_reviews_embeddings)
+    sentiment_label = reverse_sentiment_mapping[new_bert_predictions[0]]
+    return {"classifier": "BertClassifier", "text": request.text, "sentiment": sentiment_label}
+
 
 # Health check endpoint
 @app.get("/")
 def read_root():
-    return {"status": "API is running", "available_endpoints": ["/predict/naivebayes", "/predict/maxent", "/predict/svm", "/predict/decisiontree","/predict/rte"]}
+    return {"status": "API is running", "available_endpoints": ["/predict/naivebayes", "/predict/maxent", "/predict/svm", "/predict/decisiontree","/predict/rte", "/predict/bert"]}
 
 if __name__ == "__main__":
     import uvicorn

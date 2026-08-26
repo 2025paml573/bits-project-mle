@@ -11,16 +11,23 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # Copy the requirements/dependency file or install directly
 # (Best practice: create a requirements.txt, but we can install inline here)
-RUN pip install --no-cache-dir fastapi uvicorn nltk pydantic
-
-# Download required NLTK data inside the container image so it doesn't download at runtime
-RUN python -c "import nltk; nltk.download('rte'); nltk.download('stopwords')"
+# RUN pip install --no-cache-dir fastapi uvicorn nltk pydantic sentence-transformers
 
 # Copy the local models directory into the container's expected path
 COPY ./models/* /app/models/
 
 # Copy your FastAPI application code into the container
 COPY ./api.py /app/
+
+# install requirements
+COPY ./requirements.txt /app/
+
+RUN pip install --upgrade pip
+
+RUN pip install -r /app/requirements.txt
+
+# Download required NLTK data inside the container image so it doesn't download at runtime
+RUN python -c "import nltk; nltk.download('rte'); nltk.download('stopwords')"
 
 # Update MODEL_DIR in your script if necessary to match container path, 
 # or ensure it points to "/app/models/" (your current script already uses an absolute path, 

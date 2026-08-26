@@ -5,3 +5,4 @@ dill
 fastapi 
 uvicorn 
 pydantic
+sentence-transformers
