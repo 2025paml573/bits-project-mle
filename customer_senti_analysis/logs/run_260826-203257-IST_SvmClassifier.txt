@@ -1,0 +1,135 @@
+SvmClassifier
+length of train reviews 20000
+length of test reviews 5001
+######################
+1 Step Classifier :  SvmClassifier
+Accuracy :  0.9998000399920016
+######################
+unimplemented
+None
+######################
+Accuracy : 0.9998000399920016
+Confusion Matrix 
+          |                   s |
+          |    n         p    e |
+          |    e    n    o    n |
+          |    g    e    s    t |
+          |    a    u    i    i |
+          |    t    t    t    m |
+          |    i    r    i    e |
+          |    v    a    v    n |
+          |    e    l    e    t |
+----------+---------------------+
+ negative |<1986>   .    .    . |
+  neutral |    .<1051>   .    . |
+ positive |    .    .<1963>   . |
+sentiment |    .    1    .   <.>|
+----------+---------------------+
+(row = reference; col = test)
+
+length of train reviews 20001
+length of test reviews 5000
+######################
+1 Step Classifier :  SvmClassifier
+Accuracy :  1.0
+######################
+unimplemented
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+         |    n         p |
+         |    e    n    o |
+         |    g    e    s |
+         |    a    u    i |
+         |    t    t    t |
+         |    i    r    i |
+         |    v    a    v |
+         |    e    l    e |
+---------+----------------+
+negative |<1930>   .    . |
+ neutral |    .<1031>   . |
+positive |    .    .<2039>|
+---------+----------------+
+(row = reference; col = test)
+
+length of train reviews 20001
+length of test reviews 5000
+######################
+1 Step Classifier :  SvmClassifier
+Accuracy :  1.0
+######################
+unimplemented
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+         |    n         p |
+         |    e    n    o |
+         |    g    e    s |
+         |    a    u    i |
+         |    t    t    t |
+         |    i    r    i |
+         |    v    a    v |
+         |    e    l    e |
+---------+----------------+
+negative |<2014>   .    . |
+ neutral |    . <991>   . |
+positive |    .    .<1995>|
+---------+----------------+
+(row = reference; col = test)
+
+length of train reviews 20001
+length of test reviews 5000
+######################
+1 Step Classifier :  SvmClassifier
+Accuracy :  1.0
+######################
+unimplemented
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+         |    n         p |
+         |    e    n    o |
+         |    g    e    s |
+         |    a    u    i |
+         |    t    t    t |
+         |    i    r    i |
+         |    v    a    v |
+         |    e    l    e |
+---------+----------------+
+negative |<1986>   .    . |
+ neutral |    .<1002>   . |
+positive |    .    .<2012>|
+---------+----------------+
+(row = reference; col = test)
+
+length of train reviews 20001
+length of test reviews 5000
+######################
+1 Step Classifier :  SvmClassifier
+Accuracy :  1.0
+######################
+unimplemented
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+         |    n         p |
+         |    e    n    o |
+         |    g    e    s |
+         |    a    u    i |
+         |    t    t    t |
+         |    i    r    i |
+         |    v    a    v |
+         |    e    l    e |
+---------+----------------+
+negative |<2021>   .    . |
+ neutral |    .<1010>   . |
+positive |    .    .<1969>|
+---------+----------------+
+(row = reference; col = test)
+
+Accuracies: [0.9998000399920016, 1.0, 1.0, 1.0, 1.0]
+Average Accuracy: 0.9999600079984002

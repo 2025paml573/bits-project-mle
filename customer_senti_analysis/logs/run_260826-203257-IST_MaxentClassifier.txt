@@ -1,0 +1,700 @@
+MaxentClassifier
+length of train reviews 20000
+length of test reviews 5001
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -1.09861        0.401
+             2          -1.04975        1.000
+             3          -1.00443        1.000
+             4          -0.96235        1.000
+             5          -0.92325        1.000
+             6          -0.88687        1.000
+             7          -0.85299        1.000
+             8          -0.82138        1.000
+             9          -0.79186        1.000
+         Final          -0.76424        1.000
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  0.9998000399920016
+######################
+   0.097 neg_l(neutral)==0.0 and label is 'neutral'
+   0.097 neg_l(about)==0.0 and label is 'neutral'
+   0.097 neg_r(neutral)==0.0 and label is 'neutral'
+   0.097 neg_r(about)==0.0 and label is 'neutral'
+   0.097 has(neutral)==1 and label is 'neutral'
+   0.094 neg_l(decent)==0.0 and label is 'neutral'
+   0.094 neg_r(decent)==0.0 and label is 'neutral'
+   0.094 has(decent)==1 and label is 'neutral'
+   0.092 neg_l(satisfi)==0.0 and label is 'positive'
+   0.092 neg_r(satisfi)==0.0 and label is 'positive'
+   0.092 has(satisfi)==1 and label is 'positive'
+   0.092 neg_l(averag)==0.0 and label is 'neutral'
+   0.092 neg_l(overal)==0.0 and label is 'neutral'
+   0.092 neg_r(averag)==0.0 and label is 'neutral'
+   0.092 neg_r(overal)==0.0 and label is 'neutral'
+   0.092 has(averag)==1 and label is 'neutral'
+   0.092 has(overal)==1 and label is 'neutral'
+   0.091 neg_l(disappoint)==0.0 and label is 'negative'
+   0.091 neg_r(disappoint)==0.0 and label is 'negative'
+   0.091 has(disappoint)==1 and label is 'negative'
+   0.088 neg_l(fine)==0.0 and label is 'neutral'
+   0.088 neg_r(fine)==0.0 and label is 'neutral'
+   0.088 has(fine)==1 and label is 'neutral'
+   0.087 neg_l(late)==0.0 and label is 'negative'
+   0.087 neg_l(poor)==0.0 and label is 'negative'
+   0.087 neg_r(late)==0.0 and label is 'negative'
+   0.087 neg_r(poor)==0.0 and label is 'negative'
+   0.087 has(late)==1 and label is 'negative'
+   0.087 has(poor)==1 and label is 'negative'
+   0.087 neg_l(fast)==0.0 and label is 'positive'
+   0.087 neg_r(fast)==0.0 and label is 'positive'
+   0.087 has(fast)==1 and label is 'positive'
+   0.086 neg_l(okay)==0.0 and label is 'neutral'
+   0.086 neg_l(noth)==0.0 and label is 'neutral'
+   0.086 neg_l(special)==0.0 and label is 'neutral'
+   0.086 neg_r(okay)==0.0 and label is 'neutral'
+   0.086 neg_r(noth)==0.0 and label is 'neutral'
+   0.086 neg_r(special)==0.0 and label is 'neutral'
+   0.086 has(okay)==1 and label is 'neutral'
+   0.086 has(noth)==1 and label is 'neutral'
+   0.086 has(special)==1 and label is 'neutral'
+   0.085 neg_l(not)==1.0 and label is 'negative'
+   0.085 neg_l(worth)==0.9 and label is 'negative'
+   0.085 neg_l(the)==0.8 and label is 'negative'
+   0.085 neg_l(price)==0.7000000000000001 and label is 'negative'
+   0.085 neg_r(not)==1.0 and label is 'negative'
+   0.085 neg_r(worth)==0.0 and label is 'negative'
+   0.085 neg_r(price)==0.0 and label is 'negative'
+   0.085 has(worth)==1 and label is 'negative'
+   0.085 has(price)==1 and label is 'negative'
+   0.084 neg_l(great)==0.0 and label is 'positive'
+   0.084 neg_r(great)==0.0 and label is 'positive'
+   0.084 pos(great)==1 and label is 'positive'
+   0.084 has(great)==1 and label is 'positive'
+   0.083 neg_l(custom)==0.0 and label is 'negative'
+   0.083 neg_l(servic)==0.0 and label is 'negative'
+   0.083 neg_l(unhelp)==0.0 and label is 'negative'
+   0.083 neg_r(custom)==0.0 and label is 'negative'
+   0.083 neg_r(servic)==0.0 and label is 'negative'
+   0.083 neg_r(unhelp)==0.0 and label is 'negative'
+   0.083 has(custom)==1 and label is 'negative'
+   0.083 has(servic)==1 and label is 'negative'
+   0.083 has(unhelp)==1 and label is 'negative'
+   0.082 neg_l(but)==0.0 and label is 'neutral'
+   0.082 neg_l(could)==0.0 and label is 'neutral'
+   0.082 neg_l(better)==0.0 and label is 'neutral'
+   0.082 neg_r(but)==0.0 and label is 'neutral'
+   0.082 neg_r(could)==0.0 and label is 'neutral'
+   0.082 neg_r(better)==0.0 and label is 'neutral'
+   0.082 pos(better)==1 and label is 'neutral'
+   0.082 has(could)==1 and label is 'neutral'
+   0.082 has(better)==1 and label is 'neutral'
+   0.082 neg_l(stop)==0.0 and label is 'negative'
+   0.082 neg_l(after)==0.0 and label is 'negative'
+   0.082 neg_l(few)==0.0 and label is 'negative'
+   0.082 neg_l(day)==0.0 and label is 'negative'
+   0.082 neg_r(stop)==0.0 and label is 'negative'
+   0.082 neg_r(after)==0.0 and label is 'negative'
+   0.082 neg_r(few)==0.0 and label is 'negative'
+   0.082 neg_r(day)==0.0 and label is 'negative'
+   0.082 has(stop)==1 and label is 'negative'
+   0.082 has(day)==1 and label is 'negative'
+   0.082 neg_l(excel)==0.0 and label is 'positive'
+   0.082 neg_l(exceed)==0.0 and label is 'positive'
+   0.082 neg_l(expect)==0.0 and label is 'positive'
+   0.082 neg_r(excel)==0.0 and label is 'positive'
+   0.082 neg_r(exceed)==0.0 and label is 'positive'
+   0.082 neg_r(expect)==0.0 and label is 'positive'
+   0.082 has(excel)==1 and label is 'positive'
+   0.082 has(exceed)==1 and label is 'positive'
+   0.082 has(expect)==1 and label is 'positive'
+   0.082 neg_l(valu)==0.0 and label is 'positive'
+   0.082 neg_l(for)==0.0 and label is 'positive'
+   0.082 neg_l(money)==0.0 and label is 'positive'
+   0.082 neg_r(valu)==0.0 and label is 'positive'
+   0.082 neg_r(for)==0.0 and label is 'positive'
+   0.082 neg_r(money)==0.0 and label is 'positive'
+   0.082 has(valu)==1 and label is 'positive'
+   0.082 has(money)==1 and label is 'positive'
+   0.080 neg_l(__punc_excl)==0.0 and label is 'positive'
+None
+######################
+Accuracy : 0.9998000399920016
+Confusion Matrix 
+          |                   s |
+          |    n         p    e |
+          |    e    n    o    n |
+          |    g    e    s    t |
+          |    a    u    i    i |
+          |    t    t    t    m |
+          |    i    r    i    e |
+          |    v    a    v    n |
+          |    e    l    e    t |
+----------+---------------------+
+ negative |<1986>   .    .    . |
+  neutral |    .<1051>   .    . |
+ positive |    .    .<1963>   . |
+sentiment |    .    .    1   <.>|
+----------+---------------------+
+(row = reference; col = test)
+
+length of train reviews 20001
+length of test reviews 5000
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -1.38629        0.000
+             2          -1.31532        1.000
+             3          -1.24979        1.000
+             4          -1.18927        1.000
+             5          -1.13336        1.000
+             6          -1.08165        1.000
+             7          -1.03379        1.000
+             8          -0.98943        1.000
+             9          -0.94827        1.000
+         Final          -0.91001        1.000
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  1.0
+######################
+   0.117 neg_l(review_text)==0.0 and label is 'sentiment'
+   0.117 neg_r(review_text)==0.0 and label is 'sentiment'
+   0.117 has(review_text)==1 and label is 'sentiment'
+   0.117 neg_l(neutral)==0.0 and label is 'neutral'
+   0.117 neg_l(about)==0.0 and label is 'neutral'
+   0.117 neg_r(neutral)==0.0 and label is 'neutral'
+   0.117 neg_r(about)==0.0 and label is 'neutral'
+   0.117 has(neutral)==1 and label is 'neutral'
+   0.112 neg_l(decent)==0.0 and label is 'neutral'
+   0.112 neg_r(decent)==0.0 and label is 'neutral'
+   0.112 has(decent)==1 and label is 'neutral'
+   0.111 neg_l(satisfi)==0.0 and label is 'positive'
+   0.111 neg_r(satisfi)==0.0 and label is 'positive'
+   0.111 has(satisfi)==1 and label is 'positive'
+   0.110 neg_l(averag)==0.0 and label is 'neutral'
+   0.110 neg_l(overal)==0.0 and label is 'neutral'
+   0.110 neg_r(averag)==0.0 and label is 'neutral'
+   0.110 neg_r(overal)==0.0 and label is 'neutral'
+   0.110 has(averag)==1 and label is 'neutral'
+   0.110 has(overal)==1 and label is 'neutral'
+   0.110 neg_l(disappoint)==0.0 and label is 'negative'
+   0.110 neg_r(disappoint)==0.0 and label is 'negative'
+   0.110 has(disappoint)==1 and label is 'negative'
+   0.105 neg_l(late)==0.0 and label is 'negative'
+   0.105 neg_l(poor)==0.0 and label is 'negative'
+   0.105 neg_r(late)==0.0 and label is 'negative'
+   0.105 neg_r(poor)==0.0 and label is 'negative'
+   0.105 has(late)==1 and label is 'negative'
+   0.105 has(poor)==1 and label is 'negative'
+   0.105 neg_l(fine)==0.0 and label is 'neutral'
+   0.105 neg_r(fine)==0.0 and label is 'neutral'
+   0.105 has(fine)==1 and label is 'neutral'
+   0.104 neg_l(fast)==0.0 and label is 'positive'
+   0.104 neg_r(fast)==0.0 and label is 'positive'
+   0.104 has(fast)==1 and label is 'positive'
+   0.103 neg_l(okay)==0.0 and label is 'neutral'
+   0.103 neg_l(noth)==0.0 and label is 'neutral'
+   0.103 neg_l(special)==0.0 and label is 'neutral'
+   0.103 neg_r(okay)==0.0 and label is 'neutral'
+   0.103 neg_r(noth)==0.0 and label is 'neutral'
+   0.103 neg_r(special)==0.0 and label is 'neutral'
+   0.103 has(okay)==1 and label is 'neutral'
+   0.103 has(noth)==1 and label is 'neutral'
+   0.103 has(special)==1 and label is 'neutral'
+   0.103 neg_l(not)==1.0 and label is 'negative'
+   0.103 neg_l(worth)==0.9 and label is 'negative'
+   0.103 neg_l(the)==0.8 and label is 'negative'
+   0.103 neg_l(price)==0.7000000000000001 and label is 'negative'
+   0.103 neg_r(not)==1.0 and label is 'negative'
+   0.103 neg_r(worth)==0.0 and label is 'negative'
+   0.103 neg_r(price)==0.0 and label is 'negative'
+   0.103 has(worth)==1 and label is 'negative'
+   0.103 has(price)==1 and label is 'negative'
+   0.101 neg_l(great)==0.0 and label is 'positive'
+   0.101 neg_r(great)==0.0 and label is 'positive'
+   0.101 pos(great)==1 and label is 'positive'
+   0.101 has(great)==1 and label is 'positive'
+   0.101 neg_l(custom)==0.0 and label is 'negative'
+   0.101 neg_l(servic)==0.0 and label is 'negative'
+   0.101 neg_l(unhelp)==0.0 and label is 'negative'
+   0.101 neg_r(custom)==0.0 and label is 'negative'
+   0.101 neg_r(servic)==0.0 and label is 'negative'
+   0.101 neg_r(unhelp)==0.0 and label is 'negative'
+   0.101 has(custom)==1 and label is 'negative'
+   0.101 has(servic)==1 and label is 'negative'
+   0.101 has(unhelp)==1 and label is 'negative'
+   0.099 neg_l(stop)==0.0 and label is 'negative'
+   0.099 neg_l(after)==0.0 and label is 'negative'
+   0.099 neg_l(few)==0.0 and label is 'negative'
+   0.099 neg_l(day)==0.0 and label is 'negative'
+   0.099 neg_r(stop)==0.0 and label is 'negative'
+   0.099 neg_r(after)==0.0 and label is 'negative'
+   0.099 neg_r(few)==0.0 and label is 'negative'
+   0.099 neg_r(day)==0.0 and label is 'negative'
+   0.099 has(stop)==1 and label is 'negative'
+   0.099 has(day)==1 and label is 'negative'
+   0.099 neg_l(valu)==0.0 and label is 'positive'
+   0.099 neg_l(for)==0.0 and label is 'positive'
+   0.099 neg_l(money)==0.0 and label is 'positive'
+   0.099 neg_r(valu)==0.0 and label is 'positive'
+   0.099 neg_r(for)==0.0 and label is 'positive'
+   0.099 neg_r(money)==0.0 and label is 'positive'
+   0.099 has(valu)==1 and label is 'positive'
+   0.099 has(money)==1 and label is 'positive'
+   0.099 neg_l(but)==0.0 and label is 'neutral'
+   0.099 neg_l(could)==0.0 and label is 'neutral'
+   0.099 neg_l(better)==0.0 and label is 'neutral'
+   0.099 neg_r(but)==0.0 and label is 'neutral'
+   0.099 neg_r(could)==0.0 and label is 'neutral'
+   0.099 neg_r(better)==0.0 and label is 'neutral'
+   0.099 pos(better)==1 and label is 'neutral'
+   0.099 has(could)==1 and label is 'neutral'
+   0.099 has(better)==1 and label is 'neutral'
+   0.099 neg_l(excel)==0.0 and label is 'positive'
+   0.099 neg_l(exceed)==0.0 and label is 'positive'
+   0.099 neg_l(expect)==0.0 and label is 'positive'
+   0.099 neg_r(excel)==0.0 and label is 'positive'
+   0.099 neg_r(exceed)==0.0 and label is 'positive'
+   0.099 neg_r(expect)==0.0 and label is 'positive'
+   0.099 has(excel)==1 and label is 'positive'
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+         |    n         p |
+         |    e    n    o |
+         |    g    e    s |
+         |    a    u    i |
+         |    t    t    t |
+         |    i    r    i |
+         |    v    a    v |
+         |    e    l    e |
+---------+----------------+
+negative |<1930>   .    . |
+ neutral |    .<1031>   . |
+positive |    .    .<2039>|
+---------+----------------+
+(row = reference; col = test)
+
+length of train reviews 20001
+length of test reviews 5000
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -1.38629        0.000
+             2          -1.31524        1.000
+             3          -1.24963        1.000
+             4          -1.18905        1.000
+             5          -1.13308        1.000
+             6          -1.08133        1.000
+             7          -1.03344        1.000
+             8          -0.98905        1.000
+             9          -0.94787        1.000
+         Final          -0.90960        1.000
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  1.0
+######################
+   0.117 neg_l(review_text)==0.0 and label is 'sentiment'
+   0.117 neg_r(review_text)==0.0 and label is 'sentiment'
+   0.117 has(review_text)==1 and label is 'sentiment'
+   0.117 neg_l(neutral)==0.0 and label is 'neutral'
+   0.117 neg_l(about)==0.0 and label is 'neutral'
+   0.117 neg_r(neutral)==0.0 and label is 'neutral'
+   0.117 neg_r(about)==0.0 and label is 'neutral'
+   0.117 has(neutral)==1 and label is 'neutral'
+   0.112 neg_l(decent)==0.0 and label is 'neutral'
+   0.112 neg_r(decent)==0.0 and label is 'neutral'
+   0.112 has(decent)==1 and label is 'neutral'
+   0.111 neg_l(satisfi)==0.0 and label is 'positive'
+   0.111 neg_r(satisfi)==0.0 and label is 'positive'
+   0.111 has(satisfi)==1 and label is 'positive'
+   0.110 neg_l(averag)==0.0 and label is 'neutral'
+   0.110 neg_l(overal)==0.0 and label is 'neutral'
+   0.110 neg_r(averag)==0.0 and label is 'neutral'
+   0.110 neg_r(overal)==0.0 and label is 'neutral'
+   0.110 has(averag)==1 and label is 'neutral'
+   0.110 has(overal)==1 and label is 'neutral'
+   0.110 neg_l(disappoint)==0.0 and label is 'negative'
+   0.110 neg_r(disappoint)==0.0 and label is 'negative'
+   0.110 has(disappoint)==1 and label is 'negative'
+   0.105 neg_l(late)==0.0 and label is 'negative'
+   0.105 neg_l(poor)==0.0 and label is 'negative'
+   0.105 neg_r(late)==0.0 and label is 'negative'
+   0.105 neg_r(poor)==0.0 and label is 'negative'
+   0.105 has(late)==1 and label is 'negative'
+   0.105 has(poor)==1 and label is 'negative'
+   0.105 neg_l(fine)==0.0 and label is 'neutral'
+   0.105 neg_r(fine)==0.0 and label is 'neutral'
+   0.105 has(fine)==1 and label is 'neutral'
+   0.104 neg_l(fast)==0.0 and label is 'positive'
+   0.104 neg_r(fast)==0.0 and label is 'positive'
+   0.104 has(fast)==1 and label is 'positive'
+   0.104 neg_l(okay)==0.0 and label is 'neutral'
+   0.104 neg_l(noth)==0.0 and label is 'neutral'
+   0.104 neg_l(special)==0.0 and label is 'neutral'
+   0.104 neg_r(okay)==0.0 and label is 'neutral'
+   0.104 neg_r(noth)==0.0 and label is 'neutral'
+   0.104 neg_r(special)==0.0 and label is 'neutral'
+   0.104 has(okay)==1 and label is 'neutral'
+   0.104 has(noth)==1 and label is 'neutral'
+   0.104 has(special)==1 and label is 'neutral'
+   0.103 neg_l(not)==1.0 and label is 'negative'
+   0.103 neg_l(worth)==0.9 and label is 'negative'
+   0.103 neg_l(the)==0.8 and label is 'negative'
+   0.103 neg_l(price)==0.7000000000000001 and label is 'negative'
+   0.103 neg_r(not)==1.0 and label is 'negative'
+   0.103 neg_r(worth)==0.0 and label is 'negative'
+   0.103 neg_r(price)==0.0 and label is 'negative'
+   0.103 has(worth)==1 and label is 'negative'
+   0.103 has(price)==1 and label is 'negative'
+   0.101 neg_l(great)==0.0 and label is 'positive'
+   0.101 neg_r(great)==0.0 and label is 'positive'
+   0.101 pos(great)==1 and label is 'positive'
+   0.101 has(great)==1 and label is 'positive'
+   0.101 neg_l(custom)==0.0 and label is 'negative'
+   0.101 neg_l(servic)==0.0 and label is 'negative'
+   0.101 neg_l(unhelp)==0.0 and label is 'negative'
+   0.101 neg_r(custom)==0.0 and label is 'negative'
+   0.101 neg_r(servic)==0.0 and label is 'negative'
+   0.101 neg_r(unhelp)==0.0 and label is 'negative'
+   0.101 has(custom)==1 and label is 'negative'
+   0.101 has(servic)==1 and label is 'negative'
+   0.101 has(unhelp)==1 and label is 'negative'
+   0.099 neg_l(stop)==0.0 and label is 'negative'
+   0.099 neg_l(after)==0.0 and label is 'negative'
+   0.099 neg_l(few)==0.0 and label is 'negative'
+   0.099 neg_l(day)==0.0 and label is 'negative'
+   0.099 neg_r(stop)==0.0 and label is 'negative'
+   0.099 neg_r(after)==0.0 and label is 'negative'
+   0.099 neg_r(few)==0.0 and label is 'negative'
+   0.099 neg_r(day)==0.0 and label is 'negative'
+   0.099 has(stop)==1 and label is 'negative'
+   0.099 has(day)==1 and label is 'negative'
+   0.099 neg_l(valu)==0.0 and label is 'positive'
+   0.099 neg_l(for)==0.0 and label is 'positive'
+   0.099 neg_l(money)==0.0 and label is 'positive'
+   0.099 neg_r(valu)==0.0 and label is 'positive'
+   0.099 neg_r(for)==0.0 and label is 'positive'
+   0.099 neg_r(money)==0.0 and label is 'positive'
+   0.099 has(valu)==1 and label is 'positive'
+   0.099 has(money)==1 and label is 'positive'
+   0.099 neg_l(excel)==0.0 and label is 'positive'
+   0.099 neg_l(exceed)==0.0 and label is 'positive'
+   0.099 neg_l(expect)==0.0 and label is 'positive'
+   0.099 neg_r(excel)==0.0 and label is 'positive'
+   0.099 neg_r(exceed)==0.0 and label is 'positive'
+   0.099 neg_r(expect)==0.0 and label is 'positive'
+   0.099 has(excel)==1 and label is 'positive'
+   0.099 has(exceed)==1 and label is 'positive'
+   0.099 has(expect)==1 and label is 'positive'
+   0.098 neg_l(but)==0.0 and label is 'neutral'
+   0.098 neg_l(could)==0.0 and label is 'neutral'
+   0.098 neg_l(better)==0.0 and label is 'neutral'
+   0.098 neg_r(but)==0.0 and label is 'neutral'
+   0.098 neg_r(could)==0.0 and label is 'neutral'
+   0.098 neg_r(better)==0.0 and label is 'neutral'
+   0.098 pos(better)==1 and label is 'neutral'
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+         |    n         p |
+         |    e    n    o |
+         |    g    e    s |
+         |    a    u    i |
+         |    t    t    t |
+         |    i    r    i |
+         |    v    a    v |
+         |    e    l    e |
+---------+----------------+
+negative |<2014>   .    . |
+ neutral |    . <991>   . |
+positive |    .    .<1995>|
+---------+----------------+
+(row = reference; col = test)
+
+length of train reviews 20001
+length of test reviews 5000
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -1.38629        0.000
+             2          -1.31537        1.000
+             3          -1.24987        1.000
+             4          -1.18938        1.000
+             5          -1.13350        1.000
+             6          -1.08181        1.000
+             7          -1.03397        1.000
+             8          -0.98964        1.000
+             9          -0.94849        1.000
+         Final          -0.91025        1.000
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  1.0
+######################
+   0.117 neg_l(review_text)==0.0 and label is 'sentiment'
+   0.117 neg_r(review_text)==0.0 and label is 'sentiment'
+   0.117 has(review_text)==1 and label is 'sentiment'
+   0.117 neg_l(neutral)==0.0 and label is 'neutral'
+   0.117 neg_l(about)==0.0 and label is 'neutral'
+   0.117 neg_r(neutral)==0.0 and label is 'neutral'
+   0.117 neg_r(about)==0.0 and label is 'neutral'
+   0.117 has(neutral)==1 and label is 'neutral'
+   0.111 neg_l(satisfi)==0.0 and label is 'positive'
+   0.111 neg_r(satisfi)==0.0 and label is 'positive'
+   0.111 has(satisfi)==1 and label is 'positive'
+   0.111 neg_l(decent)==0.0 and label is 'neutral'
+   0.111 neg_r(decent)==0.0 and label is 'neutral'
+   0.111 has(decent)==1 and label is 'neutral'
+   0.111 neg_l(averag)==0.0 and label is 'neutral'
+   0.111 neg_l(overal)==0.0 and label is 'neutral'
+   0.111 neg_r(averag)==0.0 and label is 'neutral'
+   0.111 neg_r(overal)==0.0 and label is 'neutral'
+   0.111 has(averag)==1 and label is 'neutral'
+   0.111 has(overal)==1 and label is 'neutral'
+   0.110 neg_l(disappoint)==0.0 and label is 'negative'
+   0.110 neg_r(disappoint)==0.0 and label is 'negative'
+   0.110 has(disappoint)==1 and label is 'negative'
+   0.105 neg_l(late)==0.0 and label is 'negative'
+   0.105 neg_l(poor)==0.0 and label is 'negative'
+   0.105 neg_r(late)==0.0 and label is 'negative'
+   0.105 neg_r(poor)==0.0 and label is 'negative'
+   0.105 has(late)==1 and label is 'negative'
+   0.105 has(poor)==1 and label is 'negative'
+   0.105 neg_l(fine)==0.0 and label is 'neutral'
+   0.105 neg_r(fine)==0.0 and label is 'neutral'
+   0.105 has(fine)==1 and label is 'neutral'
+   0.104 neg_l(fast)==0.0 and label is 'positive'
+   0.104 neg_r(fast)==0.0 and label is 'positive'
+   0.104 has(fast)==1 and label is 'positive'
+   0.103 neg_l(okay)==0.0 and label is 'neutral'
+   0.103 neg_l(noth)==0.0 and label is 'neutral'
+   0.103 neg_l(special)==0.0 and label is 'neutral'
+   0.103 neg_r(okay)==0.0 and label is 'neutral'
+   0.103 neg_r(noth)==0.0 and label is 'neutral'
+   0.103 neg_r(special)==0.0 and label is 'neutral'
+   0.103 has(okay)==1 and label is 'neutral'
+   0.103 has(noth)==1 and label is 'neutral'
+   0.103 has(special)==1 and label is 'neutral'
+   0.103 neg_l(not)==1.0 and label is 'negative'
+   0.103 neg_l(worth)==0.9 and label is 'negative'
+   0.103 neg_l(the)==0.8 and label is 'negative'
+   0.103 neg_l(price)==0.7000000000000001 and label is 'negative'
+   0.103 neg_r(not)==1.0 and label is 'negative'
+   0.103 neg_r(worth)==0.0 and label is 'negative'
+   0.103 neg_r(price)==0.0 and label is 'negative'
+   0.103 has(worth)==1 and label is 'negative'
+   0.103 has(price)==1 and label is 'negative'
+   0.101 neg_l(great)==0.0 and label is 'positive'
+   0.101 neg_r(great)==0.0 and label is 'positive'
+   0.101 pos(great)==1 and label is 'positive'
+   0.101 has(great)==1 and label is 'positive'
+   0.101 neg_l(custom)==0.0 and label is 'negative'
+   0.101 neg_l(servic)==0.0 and label is 'negative'
+   0.101 neg_l(unhelp)==0.0 and label is 'negative'
+   0.101 neg_r(custom)==0.0 and label is 'negative'
+   0.101 neg_r(servic)==0.0 and label is 'negative'
+   0.101 neg_r(unhelp)==0.0 and label is 'negative'
+   0.101 has(custom)==1 and label is 'negative'
+   0.101 has(servic)==1 and label is 'negative'
+   0.101 has(unhelp)==1 and label is 'negative'
+   0.099 neg_l(stop)==0.0 and label is 'negative'
+   0.099 neg_l(after)==0.0 and label is 'negative'
+   0.099 neg_l(few)==0.0 and label is 'negative'
+   0.099 neg_l(day)==0.0 and label is 'negative'
+   0.099 neg_r(stop)==0.0 and label is 'negative'
+   0.099 neg_r(after)==0.0 and label is 'negative'
+   0.099 neg_r(few)==0.0 and label is 'negative'
+   0.099 neg_r(day)==0.0 and label is 'negative'
+   0.099 has(stop)==1 and label is 'negative'
+   0.099 has(day)==1 and label is 'negative'
+   0.099 neg_l(valu)==0.0 and label is 'positive'
+   0.099 neg_l(for)==0.0 and label is 'positive'
+   0.099 neg_l(money)==0.0 and label is 'positive'
+   0.099 neg_r(valu)==0.0 and label is 'positive'
+   0.099 neg_r(for)==0.0 and label is 'positive'
+   0.099 neg_r(money)==0.0 and label is 'positive'
+   0.099 has(valu)==1 and label is 'positive'
+   0.099 has(money)==1 and label is 'positive'
+   0.098 neg_l(excel)==0.0 and label is 'positive'
+   0.098 neg_l(exceed)==0.0 and label is 'positive'
+   0.098 neg_l(expect)==0.0 and label is 'positive'
+   0.098 neg_r(excel)==0.0 and label is 'positive'
+   0.098 neg_r(exceed)==0.0 and label is 'positive'
+   0.098 neg_r(expect)==0.0 and label is 'positive'
+   0.098 has(excel)==1 and label is 'positive'
+   0.098 has(exceed)==1 and label is 'positive'
+   0.098 has(expect)==1 and label is 'positive'
+   0.098 neg_l(but)==0.0 and label is 'neutral'
+   0.098 neg_l(could)==0.0 and label is 'neutral'
+   0.098 neg_l(better)==0.0 and label is 'neutral'
+   0.098 neg_r(but)==0.0 and label is 'neutral'
+   0.098 neg_r(could)==0.0 and label is 'neutral'
+   0.098 neg_r(better)==0.0 and label is 'neutral'
+   0.098 pos(better)==1 and label is 'neutral'
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+         |    n         p |
+         |    e    n    o |
+         |    g    e    s |
+         |    a    u    i |
+         |    t    t    t |
+         |    i    r    i |
+         |    v    a    v |
+         |    e    l    e |
+---------+----------------+
+negative |<1986>   .    . |
+ neutral |    .<1002>   . |
+positive |    .    .<2012>|
+---------+----------------+
+(row = reference; col = test)
+
+length of train reviews 20001
+length of test reviews 5000
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -1.38629        0.000
+             2          -1.31513        1.000
+             3          -1.24943        1.000
+             4          -1.18876        1.000
+             5          -1.13272        1.000
+             6          -1.08090        1.000
+             7          -1.03295        1.000
+             8          -0.98851        1.000
+             9          -0.94728        1.000
+         Final          -0.90897        1.000
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  1.0
+######################
+   0.117 neg_l(review_text)==0.0 and label is 'sentiment'
+   0.117 neg_r(review_text)==0.0 and label is 'sentiment'
+   0.117 has(review_text)==1 and label is 'sentiment'
+   0.117 neg_l(neutral)==0.0 and label is 'neutral'
+   0.117 neg_l(about)==0.0 and label is 'neutral'
+   0.117 neg_r(neutral)==0.0 and label is 'neutral'
+   0.117 neg_r(about)==0.0 and label is 'neutral'
+   0.117 has(neutral)==1 and label is 'neutral'
+   0.112 neg_l(decent)==0.0 and label is 'neutral'
+   0.112 neg_r(decent)==0.0 and label is 'neutral'
+   0.112 has(decent)==1 and label is 'neutral'
+   0.111 neg_l(satisfi)==0.0 and label is 'positive'
+   0.111 neg_r(satisfi)==0.0 and label is 'positive'
+   0.111 has(satisfi)==1 and label is 'positive'
+   0.111 neg_l(averag)==0.0 and label is 'neutral'
+   0.111 neg_l(overal)==0.0 and label is 'neutral'
+   0.111 neg_r(averag)==0.0 and label is 'neutral'
+   0.111 neg_r(overal)==0.0 and label is 'neutral'
+   0.111 has(averag)==1 and label is 'neutral'
+   0.111 has(overal)==1 and label is 'neutral'
+   0.110 neg_l(disappoint)==0.0 and label is 'negative'
+   0.110 neg_r(disappoint)==0.0 and label is 'negative'
+   0.110 has(disappoint)==1 and label is 'negative'
+   0.105 neg_l(late)==0.0 and label is 'negative'
+   0.105 neg_l(poor)==0.0 and label is 'negative'
+   0.105 neg_r(late)==0.0 and label is 'negative'
+   0.105 neg_r(poor)==0.0 and label is 'negative'
+   0.105 has(late)==1 and label is 'negative'
+   0.105 has(poor)==1 and label is 'negative'
+   0.105 neg_l(fine)==0.0 and label is 'neutral'
+   0.105 neg_r(fine)==0.0 and label is 'neutral'
+   0.105 has(fine)==1 and label is 'neutral'
+   0.104 neg_l(fast)==0.0 and label is 'positive'
+   0.104 neg_r(fast)==0.0 and label is 'positive'
+   0.104 has(fast)==1 and label is 'positive'
+   0.103 neg_l(okay)==0.0 and label is 'neutral'
+   0.103 neg_l(noth)==0.0 and label is 'neutral'
+   0.103 neg_l(special)==0.0 and label is 'neutral'
+   0.103 neg_r(okay)==0.0 and label is 'neutral'
+   0.103 neg_r(noth)==0.0 and label is 'neutral'
+   0.103 neg_r(special)==0.0 and label is 'neutral'
+   0.103 has(okay)==1 and label is 'neutral'
+   0.103 has(noth)==1 and label is 'neutral'
+   0.103 has(special)==1 and label is 'neutral'
+   0.103 neg_l(not)==1.0 and label is 'negative'
+   0.103 neg_l(worth)==0.9 and label is 'negative'
+   0.103 neg_l(the)==0.8 and label is 'negative'
+   0.103 neg_l(price)==0.7000000000000001 and label is 'negative'
+   0.103 neg_r(not)==1.0 and label is 'negative'
+   0.103 neg_r(worth)==0.0 and label is 'negative'
+   0.103 neg_r(price)==0.0 and label is 'negative'
+   0.103 has(worth)==1 and label is 'negative'
+   0.103 has(price)==1 and label is 'negative'
+   0.101 neg_l(great)==0.0 and label is 'positive'
+   0.101 neg_r(great)==0.0 and label is 'positive'
+   0.101 pos(great)==1 and label is 'positive'
+   0.101 has(great)==1 and label is 'positive'
+   0.101 neg_l(custom)==0.0 and label is 'negative'
+   0.101 neg_l(servic)==0.0 and label is 'negative'
+   0.101 neg_l(unhelp)==0.0 and label is 'negative'
+   0.101 neg_r(custom)==0.0 and label is 'negative'
+   0.101 neg_r(servic)==0.0 and label is 'negative'
+   0.101 neg_r(unhelp)==0.0 and label is 'negative'
+   0.101 has(custom)==1 and label is 'negative'
+   0.101 has(servic)==1 and label is 'negative'
+   0.101 has(unhelp)==1 and label is 'negative'
+   0.099 neg_l(stop)==0.0 and label is 'negative'
+   0.099 neg_l(after)==0.0 and label is 'negative'
+   0.099 neg_l(few)==0.0 and label is 'negative'
+   0.099 neg_l(day)==0.0 and label is 'negative'
+   0.099 neg_r(stop)==0.0 and label is 'negative'
+   0.099 neg_r(after)==0.0 and label is 'negative'
+   0.099 neg_r(few)==0.0 and label is 'negative'
+   0.099 neg_r(day)==0.0 and label is 'negative'
+   0.099 has(stop)==1 and label is 'negative'
+   0.099 has(day)==1 and label is 'negative'
+   0.099 neg_l(valu)==0.0 and label is 'positive'
+   0.099 neg_l(for)==0.0 and label is 'positive'
+   0.099 neg_l(money)==0.0 and label is 'positive'
+   0.099 neg_r(valu)==0.0 and label is 'positive'
+   0.099 neg_r(for)==0.0 and label is 'positive'
+   0.099 neg_r(money)==0.0 and label is 'positive'
+   0.099 has(valu)==1 and label is 'positive'
+   0.099 has(money)==1 and label is 'positive'
+   0.098 neg_l(excel)==0.0 and label is 'positive'
+   0.098 neg_l(exceed)==0.0 and label is 'positive'
+   0.098 neg_l(expect)==0.0 and label is 'positive'
+   0.098 neg_r(excel)==0.0 and label is 'positive'
+   0.098 neg_r(exceed)==0.0 and label is 'positive'
+   0.098 neg_r(expect)==0.0 and label is 'positive'
+   0.098 has(excel)==1 and label is 'positive'
+   0.098 has(exceed)==1 and label is 'positive'
+   0.098 has(expect)==1 and label is 'positive'
+   0.098 neg_l(but)==0.0 and label is 'neutral'
+   0.098 neg_l(could)==0.0 and label is 'neutral'
+   0.098 neg_l(better)==0.0 and label is 'neutral'
+   0.098 neg_r(but)==0.0 and label is 'neutral'
+   0.098 neg_r(could)==0.0 and label is 'neutral'
+   0.098 neg_r(better)==0.0 and label is 'neutral'
+   0.098 pos(better)==1 and label is 'neutral'
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+         |    n         p |
+         |    e    n    o |
+         |    g    e    s |
+         |    a    u    i |
+         |    t    t    t |
+         |    i    r    i |
+         |    v    a    v |
+         |    e    l    e |
+---------+----------------+
+negative |<2021>   .    . |
+ neutral |    .<1010>   . |
+positive |    .    .<1969>|
+---------+----------------+
+(row = reference; col = test)
+
+Accuracies: [0.9998000399920016, 1.0, 1.0, 1.0, 1.0]
+Average Accuracy: 0.9999600079984002

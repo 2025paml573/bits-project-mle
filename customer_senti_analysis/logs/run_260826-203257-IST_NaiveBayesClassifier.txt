@@ -1,0 +1,635 @@
+NaiveBayesClassifier
+length of train reviews 20000
+length of test reviews 5001
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  0.9998000399920016
+######################
+Most Informative Features
+            has(product) = 1              neutra : negati =      2.1 : 1.0
+          neg_l(product) = 0.0            neutra : negati =      2.1 : 1.0
+          neg_r(product) = 0.0            neutra : negati =      2.1 : 1.0
+              neg_r(the) = 0.0            negati : neutra =      2.0 : 1.0
+        has(__punc_excl) = None           negati : positi =      1.7 : 1.0
+      neg_l(__punc_excl) = None           negati : positi =      1.7 : 1.0
+      neg_r(__punc_excl) = None           negati : positi =      1.7 : 1.0
+               has(fine) = None           positi : neutra =      1.7 : 1.0
+             neg_l(fine) = None           positi : neutra =      1.7 : 1.0
+             neg_r(fine) = None           positi : neutra =      1.7 : 1.0
+              has(great) = None           negati : positi =      1.6 : 1.0
+            neg_l(great) = None           negati : positi =      1.6 : 1.0
+            neg_r(great) = None           negati : positi =      1.6 : 1.0
+              pos(great) = None           negati : positi =      1.6 : 1.0
+            has(product) = None           negati : neutra =      1.4 : 1.0
+          neg_l(product) = None           negati : neutra =      1.4 : 1.0
+          neg_r(product) = None           negati : neutra =      1.4 : 1.0
+              neg_r(the) = None           neutra : negati =      1.3 : 1.0
+              neg_l(the) = None           neutra : negati =      1.3 : 1.0
+               has(amaz) = None           negati : positi =      1.3 : 1.0
+             has(experi) = None           negati : positi =      1.3 : 1.0
+             has(highli) = None           negati : positi =      1.3 : 1.0
+          has(recommend) = None           negati : positi =      1.3 : 1.0
+             neg_l(amaz) = None           negati : positi =      1.3 : 1.0
+           neg_l(experi) = None           negati : positi =      1.3 : 1.0
+           neg_l(highli) = None           negati : positi =      1.3 : 1.0
+        neg_l(recommend) = None           negati : positi =      1.3 : 1.0
+             neg_r(amaz) = None           negati : positi =      1.3 : 1.0
+           neg_r(experi) = None           negati : positi =      1.3 : 1.0
+           neg_r(highli) = None           negati : positi =      1.3 : 1.0
+        neg_r(recommend) = None           negati : positi =      1.3 : 1.0
+               has(late) = None           positi : negati =      1.3 : 1.0
+               has(poor) = None           positi : negati =      1.3 : 1.0
+             neg_l(late) = None           positi : negati =      1.3 : 1.0
+             neg_l(poor) = None           positi : negati =      1.3 : 1.0
+             neg_r(late) = None           positi : negati =      1.3 : 1.0
+             neg_r(poor) = None           positi : negati =      1.3 : 1.0
+             has(packag) = None           neutra : negati =      1.3 : 1.0
+              neg_l(and) = None           neutra : negati =      1.3 : 1.0
+           neg_l(packag) = None           neutra : negati =      1.3 : 1.0
+              neg_r(and) = None           neutra : negati =      1.3 : 1.0
+           neg_r(packag) = None           neutra : negati =      1.3 : 1.0
+              has(price) = None           positi : negati =      1.3 : 1.0
+              has(worth) = None           positi : negati =      1.3 : 1.0
+              neg_l(not) = None           positi : negati =      1.3 : 1.0
+            neg_l(price) = None           positi : negati =      1.3 : 1.0
+            neg_l(worth) = None           positi : negati =      1.3 : 1.0
+              neg_r(not) = None           positi : negati =      1.3 : 1.0
+            neg_r(price) = None           positi : negati =      1.3 : 1.0
+            neg_r(worth) = None           positi : negati =      1.3 : 1.0
+             has(better) = None           positi : neutra =      1.3 : 1.0
+              has(could) = None           positi : neutra =      1.3 : 1.0
+               has(work) = None           positi : neutra =      1.3 : 1.0
+           neg_l(better) = None           positi : neutra =      1.3 : 1.0
+              neg_l(but) = None           positi : neutra =      1.3 : 1.0
+            neg_l(could) = None           positi : neutra =      1.3 : 1.0
+             neg_l(work) = None           positi : neutra =      1.3 : 1.0
+           neg_r(better) = None           positi : neutra =      1.3 : 1.0
+              neg_r(but) = None           positi : neutra =      1.3 : 1.0
+            neg_r(could) = None           positi : neutra =      1.3 : 1.0
+             neg_r(work) = None           positi : neutra =      1.3 : 1.0
+             pos(better) = None           positi : neutra =      1.3 : 1.0
+             has(custom) = None           positi : negati =      1.3 : 1.0
+             has(servic) = None           positi : negati =      1.3 : 1.0
+             has(unhelp) = None           positi : negati =      1.3 : 1.0
+                 has(wa) = None           positi : negati =      1.3 : 1.0
+           neg_l(custom) = None           positi : negati =      1.3 : 1.0
+           neg_l(servic) = None           positi : negati =      1.3 : 1.0
+           neg_l(unhelp) = None           positi : negati =      1.3 : 1.0
+               neg_l(wa) = None           positi : negati =      1.3 : 1.0
+           neg_r(custom) = None           positi : negati =      1.3 : 1.0
+           neg_r(servic) = None           positi : negati =      1.3 : 1.0
+           neg_r(unhelp) = None           positi : negati =      1.3 : 1.0
+               neg_r(wa) = None           positi : negati =      1.3 : 1.0
+               has(noth) = None           positi : neutra =      1.3 : 1.0
+               has(okay) = None           positi : neutra =      1.3 : 1.0
+            has(special) = None           positi : neutra =      1.3 : 1.0
+             neg_l(noth) = None           positi : neutra =      1.3 : 1.0
+             neg_l(okay) = None           positi : neutra =      1.3 : 1.0
+          neg_l(special) = None           positi : neutra =      1.3 : 1.0
+             neg_r(noth) = None           positi : neutra =      1.3 : 1.0
+             neg_r(okay) = None           positi : neutra =      1.3 : 1.0
+          neg_r(special) = None           positi : neutra =      1.3 : 1.0
+             has(decent) = None           positi : neutra =      1.3 : 1.0
+           neg_l(decent) = None           positi : neutra =      1.3 : 1.0
+           neg_r(decent) = None           positi : neutra =      1.3 : 1.0
+            has(satisfi) = None           negati : positi =      1.2 : 1.0
+          neg_l(satisfi) = None           negati : positi =      1.2 : 1.0
+          neg_r(satisfi) = None           negati : positi =      1.2 : 1.0
+               has(veri) = None           neutra : positi =      1.2 : 1.0
+             neg_l(veri) = None           neutra : positi =      1.2 : 1.0
+             neg_l(with) = None           neutra : positi =      1.2 : 1.0
+             neg_r(veri) = None           neutra : positi =      1.2 : 1.0
+             neg_r(with) = None           neutra : positi =      1.2 : 1.0
+            has(neutral) = None           positi : neutra =      1.2 : 1.0
+            neg_l(about) = None           positi : neutra =      1.2 : 1.0
+          neg_l(neutral) = None           positi : neutra =      1.2 : 1.0
+            neg_r(about) = None           positi : neutra =      1.2 : 1.0
+          neg_r(neutral) = None           positi : neutra =      1.2 : 1.0
+         has(disappoint) = None           positi : negati =      1.2 : 1.0
+None
+######################
+Accuracy : 0.9998000399920016
+Confusion Matrix 
+          |                   s |
+          |    n         p    e |
+          |    e    n    o    n |
+          |    g    e    s    t |
+          |    a    u    i    i |
+          |    t    t    t    m |
+          |    i    r    i    e |
+          |    v    a    v    n |
+          |    e    l    e    t |
+----------+---------------------+
+ negative |<1986>   .    .    . |
+  neutral |    .<1051>   .    . |
+ positive |    .    .<1963>   . |
+sentiment |    .    .    1   <.>|
+----------+---------------------+
+(row = reference; col = test)
+
+length of train reviews 20001
+length of test reviews 5000
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  1.0
+######################
+Most Informative Features
+            has(product) = 1              neutra : negati =      2.1 : 1.0
+          neg_l(product) = 0.0            neutra : negati =      2.1 : 1.0
+          neg_r(product) = 0.0            neutra : negati =      2.1 : 1.0
+              neg_r(the) = 0.0            negati : positi =      2.0 : 1.0
+        has(__punc_excl) = None           negati : positi =      1.7 : 1.0
+      neg_l(__punc_excl) = None           negati : positi =      1.7 : 1.0
+      neg_r(__punc_excl) = None           negati : positi =      1.7 : 1.0
+               has(fine) = None           negati : neutra =      1.7 : 1.0
+             neg_l(fine) = None           negati : neutra =      1.7 : 1.0
+             neg_r(fine) = None           negati : neutra =      1.7 : 1.0
+              has(great) = None           negati : positi =      1.7 : 1.0
+            neg_l(great) = None           negati : positi =      1.7 : 1.0
+            neg_r(great) = None           negati : positi =      1.7 : 1.0
+              pos(great) = None           negati : positi =      1.7 : 1.0
+            has(product) = None           negati : neutra =      1.4 : 1.0
+          neg_l(product) = None           negati : neutra =      1.4 : 1.0
+          neg_r(product) = None           negati : neutra =      1.4 : 1.0
+              neg_r(the) = None           positi : negati =      1.3 : 1.0
+              neg_l(the) = None           positi : negati =      1.3 : 1.0
+               has(amaz) = None           negati : sentim =      1.3 : 1.0
+             has(averag) = None           negati : sentim =      1.3 : 1.0
+             has(better) = None           negati : sentim =      1.3 : 1.0
+              has(could) = None           negati : sentim =      1.3 : 1.0
+             has(decent) = None           negati : sentim =      1.3 : 1.0
+             has(exceed) = None           negati : sentim =      1.3 : 1.0
+              has(excel) = None           negati : sentim =      1.3 : 1.0
+             has(expect) = None           negati : sentim =      1.3 : 1.0
+             has(experi) = None           negati : sentim =      1.3 : 1.0
+               has(fast) = None           negati : sentim =      1.3 : 1.0
+             has(highli) = None           negati : sentim =      1.3 : 1.0
+              has(money) = None           negati : sentim =      1.3 : 1.0
+            has(neutral) = None           negati : sentim =      1.3 : 1.0
+               has(noth) = None           negati : sentim =      1.3 : 1.0
+               has(okay) = None           negati : sentim =      1.3 : 1.0
+             has(overal) = None           negati : sentim =      1.3 : 1.0
+          has(recommend) = None           negati : sentim =      1.3 : 1.0
+            has(satisfi) = None           negati : sentim =      1.3 : 1.0
+            has(special) = None           negati : sentim =      1.3 : 1.0
+               has(valu) = None           negati : sentim =      1.3 : 1.0
+            neg_l(about) = None           negati : sentim =      1.3 : 1.0
+             neg_l(amaz) = None           negati : sentim =      1.3 : 1.0
+           neg_l(averag) = None           negati : sentim =      1.3 : 1.0
+           neg_l(better) = None           negati : sentim =      1.3 : 1.0
+              neg_l(but) = None           negati : sentim =      1.3 : 1.0
+            neg_l(could) = None           negati : sentim =      1.3 : 1.0
+           neg_l(decent) = None           negati : sentim =      1.3 : 1.0
+           neg_l(exceed) = None           negati : sentim =      1.3 : 1.0
+            neg_l(excel) = None           negati : sentim =      1.3 : 1.0
+           neg_l(expect) = None           negati : sentim =      1.3 : 1.0
+           neg_l(experi) = None           negati : sentim =      1.3 : 1.0
+             neg_l(fast) = None           negati : sentim =      1.3 : 1.0
+              neg_l(for) = None           negati : sentim =      1.3 : 1.0
+           neg_l(highli) = None           negati : sentim =      1.3 : 1.0
+            neg_l(money) = None           negati : sentim =      1.3 : 1.0
+          neg_l(neutral) = None           negati : sentim =      1.3 : 1.0
+             neg_l(noth) = None           negati : sentim =      1.3 : 1.0
+             neg_l(okay) = None           negati : sentim =      1.3 : 1.0
+           neg_l(overal) = None           negati : sentim =      1.3 : 1.0
+        neg_l(recommend) = None           negati : sentim =      1.3 : 1.0
+          neg_l(satisfi) = None           negati : sentim =      1.3 : 1.0
+          neg_l(special) = None           negati : sentim =      1.3 : 1.0
+             neg_l(valu) = None           negati : sentim =      1.3 : 1.0
+            neg_r(about) = None           negati : sentim =      1.3 : 1.0
+             neg_r(amaz) = None           negati : sentim =      1.3 : 1.0
+           neg_r(averag) = None           negati : sentim =      1.3 : 1.0
+           neg_r(better) = None           negati : sentim =      1.3 : 1.0
+              neg_r(but) = None           negati : sentim =      1.3 : 1.0
+            neg_r(could) = None           negati : sentim =      1.3 : 1.0
+           neg_r(decent) = None           negati : sentim =      1.3 : 1.0
+           neg_r(exceed) = None           negati : sentim =      1.3 : 1.0
+            neg_r(excel) = None           negati : sentim =      1.3 : 1.0
+           neg_r(expect) = None           negati : sentim =      1.3 : 1.0
+           neg_r(experi) = None           negati : sentim =      1.3 : 1.0
+             neg_r(fast) = None           negati : sentim =      1.3 : 1.0
+              neg_r(for) = None           negati : sentim =      1.3 : 1.0
+           neg_r(highli) = None           negati : sentim =      1.3 : 1.0
+            neg_r(money) = None           negati : sentim =      1.3 : 1.0
+          neg_r(neutral) = None           negati : sentim =      1.3 : 1.0
+             neg_r(noth) = None           negati : sentim =      1.3 : 1.0
+             neg_r(okay) = None           negati : sentim =      1.3 : 1.0
+           neg_r(overal) = None           negati : sentim =      1.3 : 1.0
+        neg_r(recommend) = None           negati : sentim =      1.3 : 1.0
+          neg_r(satisfi) = None           negati : sentim =      1.3 : 1.0
+          neg_r(special) = None           negati : sentim =      1.3 : 1.0
+             neg_r(valu) = None           negati : sentim =      1.3 : 1.0
+             pos(better) = None           negati : sentim =      1.3 : 1.0
+             has(custom) = None           positi : sentim =      1.3 : 1.0
+                has(day) = None           positi : sentim =      1.3 : 1.0
+         has(disappoint) = None           positi : sentim =      1.3 : 1.0
+               has(late) = None           positi : sentim =      1.3 : 1.0
+               has(poor) = None           positi : sentim =      1.3 : 1.0
+              has(price) = None           positi : sentim =      1.3 : 1.0
+             has(servic) = None           positi : sentim =      1.3 : 1.0
+               has(stop) = None           positi : sentim =      1.3 : 1.0
+             has(unhelp) = None           positi : sentim =      1.3 : 1.0
+                 has(wa) = None           positi : sentim =      1.3 : 1.0
+               has(work) = None           positi : sentim =      1.3 : 1.0
+              has(worth) = None           positi : sentim =      1.3 : 1.0
+            neg_l(after) = None           positi : sentim =      1.3 : 1.0
+           neg_l(custom) = None           positi : sentim =      1.3 : 1.0
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+         |    n         p |
+         |    e    n    o |
+         |    g    e    s |
+         |    a    u    i |
+         |    t    t    t |
+         |    i    r    i |
+         |    v    a    v |
+         |    e    l    e |
+---------+----------------+
+negative |<1930>   .    . |
+ neutral |    .<1031>   . |
+positive |    .    .<2039>|
+---------+----------------+
+(row = reference; col = test)
+
+length of train reviews 20001
+length of test reviews 5000
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  1.0
+######################
+Most Informative Features
+            has(product) = 1              neutra : negati =      2.1 : 1.0
+          neg_l(product) = 0.0            neutra : negati =      2.1 : 1.0
+          neg_r(product) = 0.0            neutra : negati =      2.1 : 1.0
+              neg_r(the) = 0.0            negati : positi =      2.0 : 1.0
+        has(__punc_excl) = None           negati : positi =      1.7 : 1.0
+      neg_l(__punc_excl) = None           negati : positi =      1.7 : 1.0
+      neg_r(__punc_excl) = None           negati : positi =      1.7 : 1.0
+               has(fine) = None           positi : neutra =      1.7 : 1.0
+             neg_l(fine) = None           positi : neutra =      1.7 : 1.0
+             neg_r(fine) = None           positi : neutra =      1.7 : 1.0
+              has(great) = None           negati : positi =      1.6 : 1.0
+            neg_l(great) = None           negati : positi =      1.6 : 1.0
+            neg_r(great) = None           negati : positi =      1.6 : 1.0
+              pos(great) = None           negati : positi =      1.6 : 1.0
+            has(product) = None           negati : neutra =      1.3 : 1.0
+          neg_l(product) = None           negati : neutra =      1.3 : 1.0
+          neg_r(product) = None           negati : neutra =      1.3 : 1.0
+             has(averag) = None           positi : sentim =      1.3 : 1.0
+             has(better) = None           positi : sentim =      1.3 : 1.0
+              has(could) = None           positi : sentim =      1.3 : 1.0
+             has(custom) = None           positi : sentim =      1.3 : 1.0
+                has(day) = None           positi : sentim =      1.3 : 1.0
+             has(decent) = None           positi : sentim =      1.3 : 1.0
+         has(disappoint) = None           positi : sentim =      1.3 : 1.0
+               has(late) = None           positi : sentim =      1.3 : 1.0
+            has(neutral) = None           positi : sentim =      1.3 : 1.0
+               has(noth) = None           positi : sentim =      1.3 : 1.0
+               has(okay) = None           positi : sentim =      1.3 : 1.0
+             has(overal) = None           positi : sentim =      1.3 : 1.0
+               has(poor) = None           positi : sentim =      1.3 : 1.0
+              has(price) = None           positi : sentim =      1.3 : 1.0
+             has(servic) = None           positi : sentim =      1.3 : 1.0
+            has(special) = None           positi : sentim =      1.3 : 1.0
+               has(stop) = None           positi : sentim =      1.3 : 1.0
+             has(unhelp) = None           positi : sentim =      1.3 : 1.0
+                 has(wa) = None           positi : sentim =      1.3 : 1.0
+               has(work) = None           positi : sentim =      1.3 : 1.0
+              has(worth) = None           positi : sentim =      1.3 : 1.0
+            neg_l(about) = None           positi : sentim =      1.3 : 1.0
+            neg_l(after) = None           positi : sentim =      1.3 : 1.0
+           neg_l(averag) = None           positi : sentim =      1.3 : 1.0
+           neg_l(better) = None           positi : sentim =      1.3 : 1.0
+              neg_l(but) = None           positi : sentim =      1.3 : 1.0
+            neg_l(could) = None           positi : sentim =      1.3 : 1.0
+           neg_l(custom) = None           positi : sentim =      1.3 : 1.0
+              neg_l(day) = None           positi : sentim =      1.3 : 1.0
+           neg_l(decent) = None           positi : sentim =      1.3 : 1.0
+       neg_l(disappoint) = None           positi : sentim =      1.3 : 1.0
+              neg_l(few) = None           positi : sentim =      1.3 : 1.0
+             neg_l(late) = None           positi : sentim =      1.3 : 1.0
+          neg_l(neutral) = None           positi : sentim =      1.3 : 1.0
+              neg_l(not) = None           positi : sentim =      1.3 : 1.0
+             neg_l(noth) = None           positi : sentim =      1.3 : 1.0
+             neg_l(okay) = None           positi : sentim =      1.3 : 1.0
+           neg_l(overal) = None           positi : sentim =      1.3 : 1.0
+             neg_l(poor) = None           positi : sentim =      1.3 : 1.0
+            neg_l(price) = None           positi : sentim =      1.3 : 1.0
+           neg_l(servic) = None           positi : sentim =      1.3 : 1.0
+          neg_l(special) = None           positi : sentim =      1.3 : 1.0
+             neg_l(stop) = None           positi : sentim =      1.3 : 1.0
+           neg_l(unhelp) = None           positi : sentim =      1.3 : 1.0
+               neg_l(wa) = None           positi : sentim =      1.3 : 1.0
+             neg_l(work) = None           positi : sentim =      1.3 : 1.0
+            neg_l(worth) = None           positi : sentim =      1.3 : 1.0
+            neg_r(about) = None           positi : sentim =      1.3 : 1.0
+            neg_r(after) = None           positi : sentim =      1.3 : 1.0
+           neg_r(averag) = None           positi : sentim =      1.3 : 1.0
+           neg_r(better) = None           positi : sentim =      1.3 : 1.0
+              neg_r(but) = None           positi : sentim =      1.3 : 1.0
+            neg_r(could) = None           positi : sentim =      1.3 : 1.0
+           neg_r(custom) = None           positi : sentim =      1.3 : 1.0
+              neg_r(day) = None           positi : sentim =      1.3 : 1.0
+           neg_r(decent) = None           positi : sentim =      1.3 : 1.0
+       neg_r(disappoint) = None           positi : sentim =      1.3 : 1.0
+              neg_r(few) = None           positi : sentim =      1.3 : 1.0
+             neg_r(late) = None           positi : sentim =      1.3 : 1.0
+          neg_r(neutral) = None           positi : sentim =      1.3 : 1.0
+              neg_r(not) = None           positi : sentim =      1.3 : 1.0
+             neg_r(noth) = None           positi : sentim =      1.3 : 1.0
+             neg_r(okay) = None           positi : sentim =      1.3 : 1.0
+           neg_r(overal) = None           positi : sentim =      1.3 : 1.0
+             neg_r(poor) = None           positi : sentim =      1.3 : 1.0
+            neg_r(price) = None           positi : sentim =      1.3 : 1.0
+           neg_r(servic) = None           positi : sentim =      1.3 : 1.0
+          neg_r(special) = None           positi : sentim =      1.3 : 1.0
+             neg_r(stop) = None           positi : sentim =      1.3 : 1.0
+           neg_r(unhelp) = None           positi : sentim =      1.3 : 1.0
+               neg_r(wa) = None           positi : sentim =      1.3 : 1.0
+             neg_r(work) = None           positi : sentim =      1.3 : 1.0
+            neg_r(worth) = None           positi : sentim =      1.3 : 1.0
+             pos(better) = None           positi : sentim =      1.3 : 1.0
+               has(amaz) = None           negati : sentim =      1.3 : 1.0
+             has(exceed) = None           negati : sentim =      1.3 : 1.0
+              has(excel) = None           negati : sentim =      1.3 : 1.0
+             has(expect) = None           negati : sentim =      1.3 : 1.0
+             has(experi) = None           negati : sentim =      1.3 : 1.0
+               has(fast) = None           negati : sentim =      1.3 : 1.0
+             has(highli) = None           negati : sentim =      1.3 : 1.0
+              has(money) = None           negati : sentim =      1.3 : 1.0
+          has(recommend) = None           negati : sentim =      1.3 : 1.0
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+         |    n         p |
+         |    e    n    o |
+         |    g    e    s |
+         |    a    u    i |
+         |    t    t    t |
+         |    i    r    i |
+         |    v    a    v |
+         |    e    l    e |
+---------+----------------+
+negative |<2014>   .    . |
+ neutral |    . <991>   . |
+positive |    .    .<1995>|
+---------+----------------+
+(row = reference; col = test)
+
+length of train reviews 20001
+length of test reviews 5000
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  1.0
+######################
+Most Informative Features
+            has(product) = 1              neutra : negati =      2.1 : 1.0
+          neg_l(product) = 0.0            neutra : negati =      2.1 : 1.0
+          neg_r(product) = 0.0            neutra : negati =      2.1 : 1.0
+              neg_r(the) = 0.0            negati : positi =      2.0 : 1.0
+        has(__punc_excl) = None           negati : positi =      1.7 : 1.0
+      neg_l(__punc_excl) = None           negati : positi =      1.7 : 1.0
+      neg_r(__punc_excl) = None           negati : positi =      1.7 : 1.0
+               has(fine) = None           positi : neutra =      1.7 : 1.0
+             neg_l(fine) = None           positi : neutra =      1.7 : 1.0
+             neg_r(fine) = None           positi : neutra =      1.7 : 1.0
+              has(great) = None           negati : positi =      1.6 : 1.0
+            neg_l(great) = None           negati : positi =      1.6 : 1.0
+            neg_r(great) = None           negati : positi =      1.6 : 1.0
+              pos(great) = None           negati : positi =      1.6 : 1.0
+            has(product) = None           negati : neutra =      1.4 : 1.0
+          neg_l(product) = None           negati : neutra =      1.4 : 1.0
+          neg_r(product) = None           negati : neutra =      1.4 : 1.0
+              neg_l(the) = None           positi : negati =      1.3 : 1.0
+              neg_r(the) = None           positi : negati =      1.3 : 1.0
+             has(averag) = None           positi : sentim =      1.3 : 1.0
+             has(better) = None           positi : sentim =      1.3 : 1.0
+              has(could) = None           positi : sentim =      1.3 : 1.0
+             has(custom) = None           positi : sentim =      1.3 : 1.0
+                has(day) = None           positi : sentim =      1.3 : 1.0
+             has(decent) = None           positi : sentim =      1.3 : 1.0
+         has(disappoint) = None           positi : sentim =      1.3 : 1.0
+               has(late) = None           positi : sentim =      1.3 : 1.0
+            has(neutral) = None           positi : sentim =      1.3 : 1.0
+               has(noth) = None           positi : sentim =      1.3 : 1.0
+               has(okay) = None           positi : sentim =      1.3 : 1.0
+             has(overal) = None           positi : sentim =      1.3 : 1.0
+               has(poor) = None           positi : sentim =      1.3 : 1.0
+              has(price) = None           positi : sentim =      1.3 : 1.0
+             has(servic) = None           positi : sentim =      1.3 : 1.0
+            has(special) = None           positi : sentim =      1.3 : 1.0
+               has(stop) = None           positi : sentim =      1.3 : 1.0
+             has(unhelp) = None           positi : sentim =      1.3 : 1.0
+                 has(wa) = None           positi : sentim =      1.3 : 1.0
+               has(work) = None           positi : sentim =      1.3 : 1.0
+              has(worth) = None           positi : sentim =      1.3 : 1.0
+            neg_l(about) = None           positi : sentim =      1.3 : 1.0
+            neg_l(after) = None           positi : sentim =      1.3 : 1.0
+           neg_l(averag) = None           positi : sentim =      1.3 : 1.0
+           neg_l(better) = None           positi : sentim =      1.3 : 1.0
+              neg_l(but) = None           positi : sentim =      1.3 : 1.0
+            neg_l(could) = None           positi : sentim =      1.3 : 1.0
+           neg_l(custom) = None           positi : sentim =      1.3 : 1.0
+              neg_l(day) = None           positi : sentim =      1.3 : 1.0
+           neg_l(decent) = None           positi : sentim =      1.3 : 1.0
+       neg_l(disappoint) = None           positi : sentim =      1.3 : 1.0
+              neg_l(few) = None           positi : sentim =      1.3 : 1.0
+             neg_l(late) = None           positi : sentim =      1.3 : 1.0
+          neg_l(neutral) = None           positi : sentim =      1.3 : 1.0
+              neg_l(not) = None           positi : sentim =      1.3 : 1.0
+             neg_l(noth) = None           positi : sentim =      1.3 : 1.0
+             neg_l(okay) = None           positi : sentim =      1.3 : 1.0
+           neg_l(overal) = None           positi : sentim =      1.3 : 1.0
+             neg_l(poor) = None           positi : sentim =      1.3 : 1.0
+            neg_l(price) = None           positi : sentim =      1.3 : 1.0
+           neg_l(servic) = None           positi : sentim =      1.3 : 1.0
+          neg_l(special) = None           positi : sentim =      1.3 : 1.0
+             neg_l(stop) = None           positi : sentim =      1.3 : 1.0
+           neg_l(unhelp) = None           positi : sentim =      1.3 : 1.0
+               neg_l(wa) = None           positi : sentim =      1.3 : 1.0
+             neg_l(work) = None           positi : sentim =      1.3 : 1.0
+            neg_l(worth) = None           positi : sentim =      1.3 : 1.0
+            neg_r(about) = None           positi : sentim =      1.3 : 1.0
+            neg_r(after) = None           positi : sentim =      1.3 : 1.0
+           neg_r(averag) = None           positi : sentim =      1.3 : 1.0
+           neg_r(better) = None           positi : sentim =      1.3 : 1.0
+              neg_r(but) = None           positi : sentim =      1.3 : 1.0
+            neg_r(could) = None           positi : sentim =      1.3 : 1.0
+           neg_r(custom) = None           positi : sentim =      1.3 : 1.0
+              neg_r(day) = None           positi : sentim =      1.3 : 1.0
+           neg_r(decent) = None           positi : sentim =      1.3 : 1.0
+       neg_r(disappoint) = None           positi : sentim =      1.3 : 1.0
+              neg_r(few) = None           positi : sentim =      1.3 : 1.0
+             neg_r(late) = None           positi : sentim =      1.3 : 1.0
+          neg_r(neutral) = None           positi : sentim =      1.3 : 1.0
+              neg_r(not) = None           positi : sentim =      1.3 : 1.0
+             neg_r(noth) = None           positi : sentim =      1.3 : 1.0
+             neg_r(okay) = None           positi : sentim =      1.3 : 1.0
+           neg_r(overal) = None           positi : sentim =      1.3 : 1.0
+             neg_r(poor) = None           positi : sentim =      1.3 : 1.0
+            neg_r(price) = None           positi : sentim =      1.3 : 1.0
+           neg_r(servic) = None           positi : sentim =      1.3 : 1.0
+          neg_r(special) = None           positi : sentim =      1.3 : 1.0
+             neg_r(stop) = None           positi : sentim =      1.3 : 1.0
+           neg_r(unhelp) = None           positi : sentim =      1.3 : 1.0
+               neg_r(wa) = None           positi : sentim =      1.3 : 1.0
+             neg_r(work) = None           positi : sentim =      1.3 : 1.0
+            neg_r(worth) = None           positi : sentim =      1.3 : 1.0
+             pos(better) = None           positi : sentim =      1.3 : 1.0
+               has(amaz) = None           negati : sentim =      1.3 : 1.0
+             has(exceed) = None           negati : sentim =      1.3 : 1.0
+              has(excel) = None           negati : sentim =      1.3 : 1.0
+             has(expect) = None           negati : sentim =      1.3 : 1.0
+             has(experi) = None           negati : sentim =      1.3 : 1.0
+               has(fast) = None           negati : sentim =      1.3 : 1.0
+             has(highli) = None           negati : sentim =      1.3 : 1.0
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+         |    n         p |
+         |    e    n    o |
+         |    g    e    s |
+         |    a    u    i |
+         |    t    t    t |
+         |    i    r    i |
+         |    v    a    v |
+         |    e    l    e |
+---------+----------------+
+negative |<1986>   .    . |
+ neutral |    .<1002>   . |
+positive |    .    .<2012>|
+---------+----------------+
+(row = reference; col = test)
+
+length of train reviews 20001
+length of test reviews 5000
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  1.0
+######################
+Most Informative Features
+            has(product) = 1              neutra : negati =      2.1 : 1.0
+          neg_l(product) = 0.0            neutra : negati =      2.1 : 1.0
+          neg_r(product) = 0.0            neutra : negati =      2.1 : 1.0
+              neg_r(the) = 0.0            negati : positi =      2.0 : 1.0
+        has(__punc_excl) = None           negati : positi =      1.7 : 1.0
+      neg_l(__punc_excl) = None           negati : positi =      1.7 : 1.0
+      neg_r(__punc_excl) = None           negati : positi =      1.7 : 1.0
+               has(fine) = None           positi : neutra =      1.7 : 1.0
+             neg_l(fine) = None           positi : neutra =      1.7 : 1.0
+             neg_r(fine) = None           positi : neutra =      1.7 : 1.0
+              has(great) = None           negati : positi =      1.6 : 1.0
+            neg_l(great) = None           negati : positi =      1.6 : 1.0
+            neg_r(great) = None           negati : positi =      1.6 : 1.0
+              pos(great) = None           negati : positi =      1.6 : 1.0
+            has(product) = None           negati : neutra =      1.4 : 1.0
+          neg_l(product) = None           negati : neutra =      1.4 : 1.0
+          neg_r(product) = None           negati : neutra =      1.4 : 1.0
+              neg_l(the) = None           positi : sentim =      1.3 : 1.0
+             has(averag) = None           positi : sentim =      1.3 : 1.0
+             has(better) = None           positi : sentim =      1.3 : 1.0
+              has(could) = None           positi : sentim =      1.3 : 1.0
+             has(custom) = None           positi : sentim =      1.3 : 1.0
+                has(day) = None           positi : sentim =      1.3 : 1.0
+             has(decent) = None           positi : sentim =      1.3 : 1.0
+         has(disappoint) = None           positi : sentim =      1.3 : 1.0
+               has(late) = None           positi : sentim =      1.3 : 1.0
+            has(neutral) = None           positi : sentim =      1.3 : 1.0
+               has(noth) = None           positi : sentim =      1.3 : 1.0
+               has(okay) = None           positi : sentim =      1.3 : 1.0
+             has(overal) = None           positi : sentim =      1.3 : 1.0
+               has(poor) = None           positi : sentim =      1.3 : 1.0
+              has(price) = None           positi : sentim =      1.3 : 1.0
+             has(servic) = None           positi : sentim =      1.3 : 1.0
+            has(special) = None           positi : sentim =      1.3 : 1.0
+               has(stop) = None           positi : sentim =      1.3 : 1.0
+             has(unhelp) = None           positi : sentim =      1.3 : 1.0
+                 has(wa) = None           positi : sentim =      1.3 : 1.0
+               has(work) = None           positi : sentim =      1.3 : 1.0
+              has(worth) = None           positi : sentim =      1.3 : 1.0
+            neg_l(about) = None           positi : sentim =      1.3 : 1.0
+            neg_l(after) = None           positi : sentim =      1.3 : 1.0
+           neg_l(averag) = None           positi : sentim =      1.3 : 1.0
+           neg_l(better) = None           positi : sentim =      1.3 : 1.0
+              neg_l(but) = None           positi : sentim =      1.3 : 1.0
+            neg_l(could) = None           positi : sentim =      1.3 : 1.0
+           neg_l(custom) = None           positi : sentim =      1.3 : 1.0
+              neg_l(day) = None           positi : sentim =      1.3 : 1.0
+           neg_l(decent) = None           positi : sentim =      1.3 : 1.0
+       neg_l(disappoint) = None           positi : sentim =      1.3 : 1.0
+              neg_l(few) = None           positi : sentim =      1.3 : 1.0
+             neg_l(late) = None           positi : sentim =      1.3 : 1.0
+          neg_l(neutral) = None           positi : sentim =      1.3 : 1.0
+              neg_l(not) = None           positi : sentim =      1.3 : 1.0
+             neg_l(noth) = None           positi : sentim =      1.3 : 1.0
+             neg_l(okay) = None           positi : sentim =      1.3 : 1.0
+           neg_l(overal) = None           positi : sentim =      1.3 : 1.0
+             neg_l(poor) = None           positi : sentim =      1.3 : 1.0
+            neg_l(price) = None           positi : sentim =      1.3 : 1.0
+           neg_l(servic) = None           positi : sentim =      1.3 : 1.0
+          neg_l(special) = None           positi : sentim =      1.3 : 1.0
+             neg_l(stop) = None           positi : sentim =      1.3 : 1.0
+           neg_l(unhelp) = None           positi : sentim =      1.3 : 1.0
+               neg_l(wa) = None           positi : sentim =      1.3 : 1.0
+             neg_l(work) = None           positi : sentim =      1.3 : 1.0
+            neg_l(worth) = None           positi : sentim =      1.3 : 1.0
+            neg_r(about) = None           positi : sentim =      1.3 : 1.0
+            neg_r(after) = None           positi : sentim =      1.3 : 1.0
+           neg_r(averag) = None           positi : sentim =      1.3 : 1.0
+           neg_r(better) = None           positi : sentim =      1.3 : 1.0
+              neg_r(but) = None           positi : sentim =      1.3 : 1.0
+            neg_r(could) = None           positi : sentim =      1.3 : 1.0
+           neg_r(custom) = None           positi : sentim =      1.3 : 1.0
+              neg_r(day) = None           positi : sentim =      1.3 : 1.0
+           neg_r(decent) = None           positi : sentim =      1.3 : 1.0
+       neg_r(disappoint) = None           positi : sentim =      1.3 : 1.0
+              neg_r(few) = None           positi : sentim =      1.3 : 1.0
+             neg_r(late) = None           positi : sentim =      1.3 : 1.0
+          neg_r(neutral) = None           positi : sentim =      1.3 : 1.0
+              neg_r(not) = None           positi : sentim =      1.3 : 1.0
+             neg_r(noth) = None           positi : sentim =      1.3 : 1.0
+             neg_r(okay) = None           positi : sentim =      1.3 : 1.0
+           neg_r(overal) = None           positi : sentim =      1.3 : 1.0
+             neg_r(poor) = None           positi : sentim =      1.3 : 1.0
+            neg_r(price) = None           positi : sentim =      1.3 : 1.0
+           neg_r(servic) = None           positi : sentim =      1.3 : 1.0
+          neg_r(special) = None           positi : sentim =      1.3 : 1.0
+             neg_r(stop) = None           positi : sentim =      1.3 : 1.0
+           neg_r(unhelp) = None           positi : sentim =      1.3 : 1.0
+               neg_r(wa) = None           positi : sentim =      1.3 : 1.0
+             neg_r(work) = None           positi : sentim =      1.3 : 1.0
+            neg_r(worth) = None           positi : sentim =      1.3 : 1.0
+             pos(better) = None           positi : sentim =      1.3 : 1.0
+               has(amaz) = None           negati : sentim =      1.3 : 1.0
+             has(exceed) = None           negati : sentim =      1.3 : 1.0
+              has(excel) = None           negati : sentim =      1.3 : 1.0
+             has(expect) = None           negati : sentim =      1.3 : 1.0
+             has(experi) = None           negati : sentim =      1.3 : 1.0
+               has(fast) = None           negati : sentim =      1.3 : 1.0
+             has(highli) = None           negati : sentim =      1.3 : 1.0
+              has(money) = None           negati : sentim =      1.3 : 1.0
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+         |    n         p |
+         |    e    n    o |
+         |    g    e    s |
+         |    a    u    i |
+         |    t    t    t |
+         |    i    r    i |
+         |    v    a    v |
+         |    e    l    e |
+---------+----------------+
+negative |<2021>   .    . |
+ neutral |    .<1010>   . |
+positive |    .    .<1969>|
+---------+----------------+
+(row = reference; col = test)
+
+Accuracies: [0.9998000399920016, 1.0, 1.0, 1.0, 1.0]
+Average Accuracy: 0.9999600079984002
